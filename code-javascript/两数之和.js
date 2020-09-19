@@ -13,3 +13,5 @@ var twoSum = function(nums, target) {
         map.set(nums[i],i);
     }
 };
+
+// 这里注意不要用map = {},因为map[key]=i,key会自动变成字符串
